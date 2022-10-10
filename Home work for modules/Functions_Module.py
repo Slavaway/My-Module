@@ -24,21 +24,21 @@ def task2():
     print("Введите коэффициенты уравнения типа: ax^2+bx+c")
 
 
-a_var = int(input("a: "))
-b_var = int(input("b: "))
-c_var = int(input("c: "))
+    a_var = int(input("a: "))
+    b_var = int(input("b: "))
+    c_var = int(input("c: "))
 
 
-D = (b_var* b_var) - 4 * a_var * c_var
+    D = (b_var* b_var) - 4 * a_var * c_var
 
-if D > 0:
-    print("ДА")
+    if D > 0:
+        print("ДА")
 
-elif D == 0:
-    print("ДА")
+    elif D == 0:
+        print("ДА")
 
-else:
-    quit()
+    else:
+        print("Нет")
 
 def task3():
     City_Caption = input()
